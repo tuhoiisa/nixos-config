@@ -50,7 +50,7 @@
             } # CHANGEME: check https://github.com/NixOS/nixos-hardware
             inputs.home-manager.nixosModules.home-manager
             inputs.stylix.nixosModules.stylix
-            ./hosts/nixos/configuration.nix # CHANGEME: change the path to match your host folder
+            ./hosts/tuhoiisa-pc/configuration.nix # CHANGEME: change the path to match your host folder
           ];
         };
       };
