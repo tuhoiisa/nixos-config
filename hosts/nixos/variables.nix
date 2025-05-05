@@ -8,7 +8,7 @@
     hostname = "tuhoiisapc";
     username = "tuhoiisa";
     configDirectory = "/home/" + config.var.username
-      + "/.config/nixos"; # The path of the nixos configuration directory
+      + "/.config/nixos-config"; # The path of the nixos configuration directory
 
     keyboardLayout = "us";
 
