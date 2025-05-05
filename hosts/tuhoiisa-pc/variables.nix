@@ -6,7 +6,7 @@
 
   config.var = {
     hostname = "tuhoiisa-pc";
-    username = "Tuhoiisa";
+    username = "tuhoiisa";
     configDirectory = "/home/" + config.var.username
       + "/.config/nixos"; # The path of the nixos configuration directory
 
@@ -15,6 +15,7 @@
     location = "Istanbul";
     timeZone = "Europe/Istanbul";
     defaultLocale = "en_US.UTF-8";
+    extraLocale = "tr_TR.UTF-8";
 
     git = {
       username = "tuhoiisa";

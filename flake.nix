@@ -39,7 +39,7 @@
 
   outputs = inputs@{ nixpkgs, ... }: {
     nixosConfigurations = {
-      tuhoiisa =
+      tuhoiisa-pc =
         # CHANGEME: This should match the 'hostname' in your variables.nix file
         nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
@@ -51,10 +51,8 @@
             inputs.home-manager.nixosModules.home-manager
             inputs.stylix.nixosModules.stylix
             ./hosts/nixos/configuration.nix # CHANGEME: change the path to match your host folder
-           ];
-          };
-         ];
-       };
-     };
-   };
- }
+          ];
+        };
+      };
+    };
+  }

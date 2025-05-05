@@ -27,6 +27,8 @@
 **Nixy simplifies and unifies** the Hyprland ecosystem with a modular, easily customizable setup. It provides a structured way to manage your system configuration and dotfiles with minimal effort.
 It includes *home-manager*, *secrets*, and *custom theming* all in one place.
 
+THIS REPO IS NOT THE OFFICIAL ONE ITS A FORK PLEASE REFER TO https://github.com/anotherhadi/nixy FOR ORIGINAL REPO.
+
 **Features:**
 
 - 💻 Hyprland-centric: Preconfigured Hyprland ecosystem (Hyprlock, Hyprpanel, etc.)
